@@ -1,0 +1,125 @@
+/* Estilo para el contenedor principal */
+.container {
+    padding: 20px;
+}
+
+/* Estilo para el título principal */
+h1 {
+    font-family: 'Sometype Mono', monospace;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 20px;
+    color: var(--dark); /* Adjusted color */
+}
+
+/* Estilo para el título secundario */
+h2 {
+    color: #3498db;
+}
+
+/* Estilo para la tarjeta */
+.card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border: none;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el botón de detalles */
+.btn-primary {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    border-radius: 200px; /* Applied to both normal and hover states */
+}
+
+.btn-primary:hover {
+    background-color: #c0392b;
+    border-color: #c0392b;
+}
+
+/* Estilo para la imagen de la tarjeta */
+.card-img-top {
+    border-radius: 10px 10px 0 0;
+}
+
+/* Estilo para el contenido de la tarjeta */
+.card-text {
+    color: #555;
+}
+
+/* Estilo para el autor y la categoría */
+.card-text strong {
+    color: #3498db;
+}
+
+/* Estilo para la sección de etiquetas */
+.card-text:last-child {
+    margin-bottom: 0;
+}
+
+/* Additional styles */
+:root {
+    --bg: #fef5b9;
+    --box: #fced97;
+    --light: #fffbaf;
+    --dark: #825a48;
+    --body: #251418;
+    --alt: #918d61;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    background: var(--body);
+    color: var(--bg);
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.box {
+    display: grid;
+    padding: 20px;
+    border: 3px solid;
+}
+
+.box-inner {
+    padding: 20px;
+    border-radius: 3px;
+    border: 2px solid;
+    box-shadow: 2px 2px 5px inset rgba(0, 0, 0, 0.5), -3px -3px 5px rgba(0,0,0,0.25), 4px 4px 5px rgba(255,255,255,0.75);
+}
+/* Estilo para el contenedor principal */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+/* Rest of your existing styles... */
+
+.box {
+    display: grid;
+    height: 100%;
+    border: 3px solid;
+}
+
+.box-inner {
+    padding: 20px;
+    border-radius: 3px;
+    border: 2px solid;
+    box-shadow: 2px 2px 5px inset rgba(0, 0, 0, 0.5), -3px -3px 5px rgba(0,0,0,0.25), 4px 4px 5px rgba(255,255,255,0.75);
+}

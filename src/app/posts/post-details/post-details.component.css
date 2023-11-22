@@ -1,0 +1,44 @@
+/* post-details.component.css */
+.container {
+    margin-top: 50px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  .card-text {
+    color: #2c3e50; /* Dark text color */
+    line-height: 1.6;
+  }
+  
+  .card-text strong {
+    color: #3498db; /* Blue for strong text */
+  }
+  
+  .btn-back {
+    margin-top: 30px;
+    background-color: #3498db; /* Blue button background */
+    color: #ecf0f1; /* Light text color */
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-back:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

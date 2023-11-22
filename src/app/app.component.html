@@ -1,0 +1,52 @@
+<!-- app.component.html -->
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+    <nav class="col-md-2 d-none d-md-block sidebar">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/users">
+              <i class="bi bi-person"></i> Users
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/posts">
+              <i class="bi bi-file-earmark-text"></i> Posts
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/profile">
+              <i class="bi bi-person-circle"></i> Profile
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main content area -->
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" routerLink="/users">
+            <i class="bi bi-house-door"></i> My App
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <!-- Add any additional navigation items here if needed -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Main content goes here -->
+      <div class="container mt-4">
+        <router-outlet></router-outlet>
+      </div>
+    </main>
+  </div>
+</div>

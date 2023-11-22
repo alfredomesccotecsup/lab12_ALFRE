@@ -1,0 +1,111 @@
+/* app.component.css */
+/* Sidebar Styles */
+.sidebar {
+    background: #3498db; /* Bright blue background */
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-top: 20px;
+    width: 280px; /* Wider sidebar */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    transition: width 0.3s ease-in-out; /* Smooth transition for sidebar width */
+  }
+  
+  .sidebar:hover {
+    width: 300px; /* Expand on hover */
+  }
+  
+  .sidebar-sticky {
+    padding-left: 20px;
+  }
+  
+  .nav-link {
+    color: #ecf0f1 !important;
+    font-size: 20px;
+    margin: 10px 0;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #fdcb6e !important;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background: #fdcb6e; /* Yellowish background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand {
+    font-size: 28px; /* Larger font size */
+    font-weight: bold;
+    color: #2c3e50; /* Dark blue text */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-brand:hover {
+    color: #3498db; /* Change color on hover */
+  }
+  
+  .navbar-toggler-icon {
+    border: 2px solid #2c3e50; /* Dark blue border */
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .navbar-toggler-icon:hover {
+    border-color: #fdcb6e; /* Change color on hover */
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover,
+  .navbar-toggler-icon:hover {
+    color: #fdcb6e;
+  }
+  
+  /* Main Content Styles */
+  .container-fluid {
+    padding: 0;
+  }
+  
+  .main-content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Container Styles */
+  .button-container {
+    background-color: #3498db; /* Blue background for the button container */
+    padding: 15px; /* Padding around the buttons */
+    border-radius: 10px; /* Rounded corners for the button container */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    margin-top: 20px; /* Spacing between main content and button container */
+  }
+  
+  /* Button Styles */
+  .btn {
+    font-size: 24px; /* Larger font size for buttons */
+    padding: 10px 20px; /* Increased padding for buttons */
+    transition: transform 0.2s ease-in-out;
+    margin-right: 10px; /* Spacing between buttons */
+  }
+  
+  .btn:last-child {
+    margin-right: 0; /* No right margin for the last button */
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  
